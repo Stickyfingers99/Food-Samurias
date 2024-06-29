@@ -1,0 +1,17 @@
+{
+  "name": "ninjafood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "script": {
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.39",
+    "tailwindcss": "^3.4.4"
+  }
+}
